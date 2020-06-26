@@ -571,7 +571,6 @@ dmypy.json
 /pypy3/site-packages/setuptools/_vendor/packaging/utils.py
 /pypy3/site-packages/pip/_vendor/idna/uts46data.py
 /.vagrant/machines/default/virtualbox/vagrant_cwd
-/Vagrantfile
 /pypy3/site-packages/pip/_vendor/chardet/version.py
 /pypy3/site-packages/pip/_vendor/distlib/version.py
 /pypy3/site-packages/pip/_vendor/packaging/version.py
