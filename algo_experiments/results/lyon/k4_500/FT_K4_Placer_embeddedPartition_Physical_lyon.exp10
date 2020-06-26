@@ -1,0 +1,10 @@
+{
+    "Hsp3e1s1->Hp1e1s1": "470 Mbits/sec",
+    "Hsp3e1s2->Hp1e1s2": "471 Mbits/sec",
+    "Hsp3e2s1->Hp1e2s1": "467 Mbits/sec",
+    "Hsp3e2s2->Hp1e2s2": "465 Mbits/sec",
+    "Hsp4e1s1->Hp2e1s1": "473 Mbits/sec",
+    "Hsp4e1s2->Hp2e1s2": "464 Mbits/sec",
+    "Hsp4e2s1->Hp2e2s1": "462 Mbits/sec",
+    "Hsp4e2s2->Hp2e2s2": "469 Mbits/sec"
+}

@@ -1,0 +1,3 @@
+[submodule "distrinet"]
+	path = algo_experiments/distrinet
+	url = https://github.com/Giuseppe1992/Distrinet.git

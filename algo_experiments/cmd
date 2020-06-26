@@ -1,0 +1,4 @@
+bin/dmn --controller lxcremote,ip=192.168.0.1 --bastion="grisou-45.nancy.grid5000.fr" --workers="grisou-45.nancy.grid5000.fr,grisou-50.nancy.grid5000.fr"  --custom=/vagrant/algo_experiments/fattree/fattree_topo.py,/vagrant/algo_experiments/experiments_fattree.py  --test hadoop --topo ft,2,500,4,32,1,2
+
+
+

@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "192.168.0.10",
+      "cores": 10,
+      "memory": 10000
+    },
+    {
+      "id": "192.168.0.11",
+      "cores": 10,
+      "memory": 10000
+    }],
+  "links": [
+    {
+      "source": "192.168.0.10",
+      "target": "sw1",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "eth0",
+          "rate": 1000.0
+        }
+      ]
+    },
+    {
+      "source": "192.168.0.11",
+      "target": "sw1",
+      "devices": [
+        {
+          "source_device": "eth0",
+          "target_device": "eth1",
+          "rate": 1000.0
+        }
+      ]
+    }
+    
+  ]
+}
