@@ -84,7 +84,7 @@ You can choose between this mappers:
 * roundRobin
 * maxinet
 * embeddedBalanced
-* embeddedPartition
+* embeddedGreedy
 * embeddedPartition
 * random
 * switchBin
