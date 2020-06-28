@@ -70,3 +70,21 @@ Be careful on the ramdisk and file size in the hadoop_mem() function
 bin/dmn --controller lxcremote,ip=192.168.0.1 --bastion="192.168.0.10" --workers="192.168.0.10,192.168.0.11"  --custom=/vagrant/algo_experiments/fattree/fattree_topo.py,/vagrant/algo_experiments/experiments_fattree.py  --test memory --topo ft,4,500,8,12,1,2
 ```
 
+# Choose you mapper
+
+You can chose the mapper, addin the --mapper parameter to the command.
+
+for example for embedded greedy you can run:
+
+```bash
+bin/dmn --controller lxcremote,ip=192.168.0.1 --bastion="192.168.0.10" --workers="192.168.0.10,192.168.0.11"  --custom=/vagrant/algo_experiments/fattree/fattree_topo.py,/vagrant/algo_experiments/experiments_fattree.py  --test piperf --topo ft,4,500,1,2,1,2 --mapper=embeddedGreedy
+```
+
+You can choose between this mappers:
+* roundRobin
+* maxinet
+* embeddedBalanced
+* embeddedPartition
+* embeddedPartition
+* random
+* switchBin
