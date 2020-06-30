@@ -19,7 +19,7 @@ https://distrinet-emu.github.io
 
 https://distrinet-emu.github.io/general_environment.html
 
-Following the tutorial, you can runa the example using the default RoundRobin Mapper with:
+Following the tutorial, you can run the example using the default RoundRobin Mapper with:
 
 ```bash
 ryu-manager /usr/lib/python3/dist-packages/ryu/app/simple_switch_13.py --verbose
@@ -29,7 +29,7 @@ as explained in the tutorial
 
 # Physical environment mapping
 
-for the new algorithm implemented, you have to create the file description of this infrastructure.
+for the new algorithm implemented, you have to create the file description of the infrastructure.
 The vagrant VM create an example environment.
 
 The example file describe an infrastructure composed by 2 physical machines with IP_1=192.168.0.10 ip_2=192.168.0.11, connected with one switch sw1.
