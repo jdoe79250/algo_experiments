@@ -70,7 +70,7 @@ Be careful on the ramdisk and file size in the hadoop_mem() function
 bin/dmn --controller lxcremote,ip=192.168.0.1 --bastion="192.168.0.10" --workers="192.168.0.10,192.168.0.11"  --custom=/vagrant/algo_experiments/fattree/fattree_topo.py,/vagrant/algo_experiments/experiments_fattree.py  --test memory --topo ft,4,500,8,12,1,2
 ```
 
-# Choose you mapper
+# Choose your mapper
 
 You can chose the mapper, addin the --mapper parameter to the command.
 
