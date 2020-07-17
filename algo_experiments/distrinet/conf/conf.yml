@@ -1,0 +1,40 @@
+---
+
+ssh:
+  pub_id: "YOUR PUBLIC ID"
+  user: "root"
+  client_keys: ["/home/ubuntu/.ssh/id_rsa"]
+  bastion: "Bastion host IP 'xxx.xxx.xxx.xxx'"
+
+port_forwarding:
+  - local: 8181
+    proto: 'tcp'
+    ip: '192.168.0.250'
+    remote: 8181
+
+aws:
+  region: "eu-central-1"
+  user: "ubuntu"
+  volumeSize: "8"
+  image_name: "ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20190722.1"
+  key_name_aws: "id_rsa"
+  network_acl:
+    - IpProtocol: "-1"
+      FromPort: 1
+      ToPort: 65353
+      IpRanges:
+        - CidrIp: "0.0.0.0/0"
+
+g5k:
+  g5k_user: "your username"
+  g5k_password: "your password"
+  image_name: "ubuntu1804-x64-python3"
+  location: "nancy"
+  cluster: "grisou"
+
+cluster:
+  user: "root"
+
+mapping_algorithm:
+  physical_infrastructure_path: "/root/.distrinet/simple_environment"
+  cloud_instances_prices: "/root/.distrinet/general_purpose"
