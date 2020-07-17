@@ -1,27 +1,42 @@
 {
-  "t3.xlarge": {
+  "m5.large": {
+    "vCPU": 2,
+    "memory": 8.0,
+    "hourly_cost": 0.115
+  },
+  "m5.xlarge": {
     "vCPU": 4,
     "memory": 16.0,
-    "hourly_cost": 0.1888
+    "hourly_cost": 0.23
   },
-  "t3.2xlarge": {
+  "m5.2xlarge": {
     "vCPU": 8,
     "memory": 32.0,
-    "hourly_cost": 0.3776
+    "hourly_cost": 0.46
   },
   "m5.4xlarge": {
     "vCPU": 16,
     "memory": 64.0,
-    "hourly_cost": 0.896
+    "hourly_cost": 0.92
+  },
+  "m5.8xlarge": {
+    "vCPU": 32,
+    "memory": 128.0,
+    "hourly_cost": 1.84
   },
   "m5.12xlarge": {
     "vCPU": 48,
     "memory": 192.0,
-    "hourly_cost": 2.688
+    "hourly_cost": 2.76
+  },
+  "m5.16xlarge": {
+    "vCPU": 64,
+    "memory": 256.0,
+    "hourly_cost": 3.68
   },
   "m5.24xlarge": {
     "vCPU": 96,
     "memory": 384.0,
-    "hourly_cost": 5.376
+    "hourly_cost": 5.52
   }
 }
