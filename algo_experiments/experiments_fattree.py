@@ -131,8 +131,6 @@ def hadoop(net):
 
     output ("# Start Hadoop in the cluster\n")
     output ("# Format HDFS\n")
-    CLI(net)
-    net.stop()
     output (hadoopMasterNode.cmd('bash -c "/root/hadoop-2.7.6/bin/hdfs namenode -format -force"'))
 
     output ("# Launch HDFS\n")
